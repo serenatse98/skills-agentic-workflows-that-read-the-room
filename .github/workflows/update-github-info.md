@@ -1,6 +1,7 @@
 ---
 name: update-github-info
 description: Keep the GitHub information page current for Mona to review.
+model: auto
 on:
   schedule:
     - cron: "0 9 * * *"
